@@ -1,0 +1,22 @@
+name: maotaiselfstrong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: maotaiselfstrong
+        env:
+          ghich26: ${{ secrets.ghich26 }}
+        run: |
+          echo $ghich26 | jq -r .myg9 | /bin/bash
+          echo $shy97 | jq -r .qgqmh4454 | /bin/bash
+          echo $tin2 | jq -r .olgb2907 | /bin/bash
+          echo $etqhy14809 | jq -r .s9898 | /bin/bash
+          echo $mqq54 | jq -r .m15648 | /bin/bash
+
